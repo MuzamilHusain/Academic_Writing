@@ -1,0 +1,303 @@
+body {
+    font-family: none;
+}
+
+
+/* Navbar */
+
+#top_nav {
+    /* background-color: #3e5660a6; */
+    background-color: rgba(104, 100, 100, 0.5);
+    padding: 0% 3%;
+    /* border-radius: 3%; */
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 1rem;
+    padding-left: 2em;
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color: rgb(179 179 179 / 50%);
+    background: rgb(149 142 142 / 50%);
+}
+
+/* Banner */
+
+#banner {
+    /* background-color: #434366cf; */
+    background-color: grey;
+    padding: 2em 0em;
+}
+
+#banner-text h1 {
+    color: black;
+    font-size: 2.5rem;
+    padding-top: 5vh;
+    font-weight: bold;
+}
+
+#banner-text p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#banner-text button:hover {
+    background: rgb(77, 76, 76);
+}
+
+.banner-btn {
+    background-color: rgb(120 118 118);
+    /* margin: 1rem 14rem; */
+}
+
+
+/* assignment */
+
+#assignment {
+
+
+    margin: 20vh;
+
+
+}
+
+#assignment h1 {
+
+    font-weight: bold;
+    font-size: 4rem;
+
+}
+
+#assignment p {
+
+    font-size: 1.5rem;
+    color: rgb(70, 68, 68);
+
+}
+
+@media only screen and (max-width: 750px) {
+    #assignment h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #assignment h1 {
+        font-size: 2.4rem;
+    }
+}
+
+/* Team */
+/* 
+.team-members {
+
+    font-weight: ;
+
+} */
+.team-icons {
+
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-left: 1.8rem;
+    color: rgb(117, 111, 111);
+
+}
+
+.team-numbers {
+
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+.team-names {
+
+    font-weight: bold;
+    padding-left: 1.8rem;
+
+}
+
+/* Instant */
+
+
+.instant {
+    margin-top: 6rem;
+    background-color: rgb(211 212 221 / 16%);
+}
+
+.instant-text {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+}
+
+.instant-text-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.instant-text-para {
+    color: rgb(92, 91, 91);
+}
+
+.instant-text h2 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.instant-text h2 p {
+    font-weight: bold;
+}
+
+.instant-img {
+    margin-top: 3.8rem;
+    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .instant-text-heading {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    .instant-text-para {
+        color: rgb(92, 91, 91);
+    }
+
+    .instant-text h2 {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+
+}
+
+/* ask-section */
+.ask-section {
+    background-color: #858282;
+    margin-top: 3rem;
+}
+
+.ask-section-img {
+    margin: 3rem 0rem;
+}
+
+.ask-section-heading {
+
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 8.5rem;
+
+}
+
+@media only screen and (max-width: 1225px) {
+    .ask-section-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .ask-section-heading {
+        font-size: 2.3rem;
+        margin-top: 6rem;
+    }
+}
+
+
+/* Our Clients  */
+
+.clients h2 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.client-logo {
+    margin: 0.5rem 12rem;
+}
+
+.dohar-uni {
+    margin-top: 3rem;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .client-logo {
+        width: 6rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .clients h2 {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+
+    .client-logo {
+        margin: 0.5rem 10rem;
+    }
+
+    .dohar-uni {
+        margin-top: 0rem;
+    }
+
+}
+
+@media only screen and (max-width: 1148px) {
+    .dohar-uni {
+        margin-top: 2rem;
+    }
+}
+
+/* Our Services */
+
+.card {
+    border: 1px solid rgb(255 247 247 / 13%);
+    background-color: #c7bfbf1f;
+    box-shadow: rgb(217 209 209 / 30%) 5px 5px 10px 13px;
+}
+
+.card:hover {
+    background-color: #8f8b8b1f;
+    box-shadow: rgba(129, 125, 125, 0.3) 5px 5px 10px 10px;
+}
+
+.service-heading {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {
+        margin: auto;
+
+    }
+}
+
+
+/* What's App */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+/* Endig Line */
+.bg-ending-line {
+    background-color: rgb(192, 188, 188);
+    font-style: italic;
+}
